@@ -1,4 +1,4 @@
-*API Creation Project*
+# API Creation Project
 
 The goal of this project was to learn how to create a webscraper and generate a api from the data.
 
@@ -9,14 +9,17 @@ Modify by changing:
 - swap "Sport" for any other search term in lines 35 and 58
 
 
-on localhost:3000/news
+### localhost:3000/news
+
 Generates a json of newspaper articles tagged with "Sport" from 3 NZ newspapers:
 - Stuff
 - ODT
 - NZ Herald
 
-on localhost:3000/news/[newspaperId]
+### localhost:3000/news/[newspaperId]
+
 newspaperId = stuff||odt||nzherald
+
 Generates a json of newspaper articles tagged with climate from the one paper with full url
 
 js modules used:
