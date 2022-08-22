@@ -18,9 +18,11 @@ on localhost:3000/news/[newspaperId]
 newspaperId = stuff||odt||nzherald
 Generates a json of newspaper articles tagged with climate from the one paper with full url
 
-tech used:
+js modules used:
 
-- js
 - express
 - cheerio
 - axiom
+- nodemon
+
+From command line:   npm run start 
