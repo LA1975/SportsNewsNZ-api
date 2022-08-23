@@ -20,7 +20,7 @@ Generates a json of newspaper articles tagged with "Sport" from 3 NZ newspapers:
 
 newspaperId = stuff||odt||nzherald
 
-Generates a json of newspaper articles tagged with climate from the one paper with full url
+Generates a json of newspaper articles tagged with "Sport" from the one paper with full url
 
 js modules used:
 

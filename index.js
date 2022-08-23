@@ -23,7 +23,7 @@ const newspapers = [
 ]
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my Climate Change News API  localhost:3000/news generates a json of newspaper articles tagged with climate from 3 NZ newspapers')
+    res.json('Welcome to my Sports News API  localhost:3000/news generates a json of newspaper articles tagged with climate from 3 NZ newspapers')
 });
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`));
